@@ -153,12 +153,13 @@
     colorette "^2.0.16"
     tslib "^2.3.1"
 
-"@sapphire/plugin-subcommands@^2.0.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/plugin-subcommands/-/plugin-subcommands-2.1.1.tgz#949b2a688aab3ff60f0f17107c7f07af46445758"
-  integrity sha512-WL3UXqYGd7y1KXAVn5n+sfvVhIpm4udQ3ScJwlJ/2L93EdgF0ax0re2eoRtV9ASPN+rA0pEnabtVlPT8CWc8tA==
+"@sapphire/plugin-subcommands@^6.0.3":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@sapphire/plugin-subcommands/-/plugin-subcommands-6.0.3.tgz#69e32ed3550480653e741ce65975e94848111871"
+  integrity sha512-SLDlTjMrMpb3s89ZjrBvVbMWsXfNNciO6SnNQdKLKTUQwktaYxIdj+k3MmEWpN19i8W9ogRvIrLl0Hw20pPUng==
   dependencies:
-    tslib "^2.3.1"
+    "@sapphire/utilities" "^3.15.3"
+    tslib "^2.6.2"
 
 "@sapphire/prettier-config@^1.2.3":
   version "1.2.6"
@@ -205,10 +206,10 @@
     nan "^2.15.0"
     tslib "^2.3.1"
 
-"@sapphire/utilities@^3.0.4", "@sapphire/utilities@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-3.1.0.tgz#50f18c8ae10535c4fde6b2c68c2a45262c45756f"
-  integrity sha512-Vwsd567hZ1LPDh791r4DHwxlO1EzUefjYhNj+kwbliHWK2TVPhMvF5v1eZKtUCgdBmobqa8CBPwCwymHstuj5w==
+"@sapphire/utilities@^3.0.4", "@sapphire/utilities@^3.1.0", "@sapphire/utilities@^3.15.3":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-3.16.0.tgz#dc00e5273f466daab4aa4e369eec68c4b8efa07a"
+  integrity sha512-KD3U0WzshO9ZkX2TaZJfXbc7oupWcKLDU8+8wMGWpArolVXdDrmtTXKN1rz8BiaAKE73KYjdPcBrtna4+bPD/Q==
 
 "@sindresorhus/is@^4.0.1", "@sindresorhus/is@^4.2.0":
   version "4.2.0"
@@ -1432,10 +1433,10 @@ tsc-watch@^4.5.0:
     string-argv "^0.1.1"
     strip-ansi "^6.0.0"
 
-tslib@^2.1.0, tslib@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+tslib@^2.1.0, tslib@^2.3.1, tslib@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 twemoji-parser@^13.1.0:
   version "13.1.0"
